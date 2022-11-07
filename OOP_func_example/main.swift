@@ -49,3 +49,22 @@ func DegerleriYaz(){
 DegerleriYaz()
 
 
+
+func f1(p1 : String){
+    print(p1)
+}
+
+f1(p1: "Selamlar")
+f1(p1: "Swift ogreniyoruz")
+
+
+func f2(p1:String,p2:Int){
+    
+}
+
+func f3(Name p1:String, _ p2:String){
+    print(p1)
+}
+f3(Name: "Vural","Cetintas")
+f3(Name: "asd", "q")
+
